@@ -1,0 +1,9 @@
+Version 101 — Pakistani checkout phone validation only
+
+- Checkout phone accepts either +92 followed by exactly 10 digits (13 characters including the leading +) or a local number beginning 03 with exactly 11 digits.
+- Spaces and punctuation are removed from the checkout phone input; a plus sign is allowed only at the beginning.
+- Invalid or incomplete numbers trigger browser validation and prevent order submission.
+- Checkout phone input now uses tel input mode, maxlength 13, and tel autocomplete.
+- No unrelated features were changed.
+
+Checks: public/app.js passed `node --check`; public/index.html passed HTML parser check.

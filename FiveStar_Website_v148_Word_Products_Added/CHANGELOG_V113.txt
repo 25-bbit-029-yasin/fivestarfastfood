@@ -1,0 +1,4 @@
+Version 113 technical fix:
+Order lists only activate internal scrolling when rendered content exceeds the viewport-based threshold.
+Both page panels retain natural height and page scrolling; Admin and Shop Staff use the same threshold logic.
+Preserved order actions, pending/done statuses, and existing site files.

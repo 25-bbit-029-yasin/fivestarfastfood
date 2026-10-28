@@ -1,0 +1,10 @@
+Five Star Website v96
+
+- Centered the compact order confirmation modal and made its message explicitly identify WhatsApp or Website.
+- Added a small translucent success toast with a check mark and the exact English message “Order has been successfully placed.” It auto-dismisses after 4.5 seconds.
+- Replaced the JavaScript fixed-position order-list pinning with CSS sticky/internal scrolling and prevented unchanged order lists from being re-rendered every poll, reducing scroll jumps/blinking.
+- Staff login now allows page refresh without re-login but requires a fresh login on a new navigation/tab restore; staff logout no longer destroys the separate Admin session.
+- Removed the duplicate shared Contact Five Star section from the bottom of pages and removed its automatic clones. Multiple phone numbers now appear once as clickable phone-number links on the original Contact page; redundant Call 1/Call 2 links are hidden.
+- Updated static asset cache versions to v96.
+
+Validation: Node syntax checks passed for app.js, admin.js, orders-staff.js, and server.js. Full live browser/real-order testing was not performed.

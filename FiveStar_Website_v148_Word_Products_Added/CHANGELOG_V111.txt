@@ -1,0 +1,9 @@
+Five Star Website — Version 111
+
+Order layout and scrolling refinement for Admin Orders and Shop Staff Orders:
+- Keeps order details and the action area side-by-side on desktop; stacks cleanly on small screens.
+- Shows a non-interactive red Pending label above Print Slip, Make Complete, and Cancel, sized to match the small action buttons.
+- Keeps action buttons in one horizontal row, with horizontal overflow available only if a narrow action area requires it.
+- The page/panel remains naturally scrollable; the orders list grows until its viewport-based maximum and then scrolls independently.
+- Preserves existing Done status, temporary 3-second checkmark, completion processing, and staff session security logic.
+- No unrelated features intentionally changed.

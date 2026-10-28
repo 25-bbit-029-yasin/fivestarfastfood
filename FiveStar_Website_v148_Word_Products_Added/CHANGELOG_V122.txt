@@ -1,0 +1,8 @@
+Five Star Website v122
+
+- Desktop cart heading (YOUR ORDER, Your Cart/count, and close button) stays pinned while the rest of the cart drawer scrolls.
+- Mobile browser Back closes the cart drawer first; a subsequent Back navigates to the previous website page.
+- Mobile browser Back closes the navigation menu first; a subsequent Back navigates to the previous website page.
+- Opening/closing the cart and menu uses overlay history states to avoid sending Back straight behind an open overlay.
+- Cache-busted styles.css and app.js references to v122.
+- Based on FiveStar_Website_v121.zip.

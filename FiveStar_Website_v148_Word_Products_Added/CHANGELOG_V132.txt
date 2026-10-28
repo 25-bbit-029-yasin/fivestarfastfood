@@ -1,0 +1,6 @@
+Version 132 product edit visibility fix
+- Reworked the Admin Panel product edit form to populate fields in a stable order: section first, then valid category/subcategory choices, then the saved values and visibility checkboxes.
+- Preserves the existing product image unless a replacement image is selected.
+- Explicitly restores active, section-wide visibility, category visibility, featured, and extra placement values when editing an existing product.
+- Shows an editing status message and updates the admin JavaScript cache version.
+- Node syntax checks passed. Full browser end-to-end testing is still required.

@@ -1,0 +1,8 @@
+Five Star Website v99 — Cart success popup refinement
+
+- Success popup now appears at the exact same fixed viewport center as the existing Confirm/Cancel popup, after that confirmation popup closes.
+- Success content is only an animated circular tick and the exact sentence: “Your order has been successfully placed.”
+- Removed order-number/extra content from the success popup; kept the translucent compact card and automatic 4.5-second dismissal.
+- Kept the existing Confirm/Cancel popup and its controls/flow unchanged.
+
+Validation: JavaScript syntax and ZIP integrity checks performed. Live browser/order-flow testing was not performed.

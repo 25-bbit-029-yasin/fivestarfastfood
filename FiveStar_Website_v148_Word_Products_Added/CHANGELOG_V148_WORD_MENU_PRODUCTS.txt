@@ -1,0 +1,12 @@
+Version 148 — Products imported from Special Burger.docx
+
+- Added all 26 products listed in the provided Word file: 9 burgers, 8 regular pizzas, 4 special pizzas, and 5 stuffed pizzas.
+- Added each product's corresponding picture from the Word file.
+- Added a short one-line description for each product.
+- Applied the Word file's listed burger prices and pizza size prices without inventing missing prices.
+- Stuffed pizza Small price is left unset because the Word file lists only Medium and Large prices.
+- Removed the original demo products: Classic Burger, Crispy Chicken Burger, Chicken Pizza, Regular Pizza, Special Pizza, and Stuffed Pizza.
+- Removed the demo Burger Combo Deal that referenced the removed demo burger.
+- Added a startup migration so the menu updates in an existing local data/store.json while preserving unrelated products, settings, and orders.
+- Updated the Fast Food > Pizza tab to show Regular, Special, and Stuffed pizza products as well.
+- Product images are stored under public/assets/menu/.

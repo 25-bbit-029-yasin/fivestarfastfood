@@ -1,0 +1,10 @@
+Five Star Website v94 - Orders settings separation and order list improvements
+
+1. Kept the Customer Orders panel focused on its existing order content and moved Shop Closing Control plus notification ring-tone settings to a separate Settings page in the Admin Panel.
+2. Added Orders / Settings navigation to the Shop Staff (Orders) panel and moved Shop Closing Control plus notification ring-tone settings to its separate Settings page.
+3. Kept order cards inside the existing order-list containers with internal scrolling once there are four or more orders; increased the visible area to better fit approximately 4-5 cards on desktop and mobile.
+4. Positioned the order confirmation popup over the right-side cart area instead of centering it over the full page.
+5. Updated cart ordering guidance in English and Urdu, including the warning that an order may not be received if a customer without WhatsApp does not use website checkout. Urdu uses a Jameel Noori Nastaleeq-first font stack with fallbacks.
+6. Updated cache-busting versions to v94.
+
+Validation: node --check passed for public/app.js, public/admin.js, public/orders-staff.js, and server.js. HTML structure and exact live-browser order flows still need a browser test; no real orders were submitted during validation.

@@ -1,0 +1,8 @@
+Five Star Website — Version 107
+
+Changes limited to order status display and order-list scrolling:
+- Removed the separate Pending action button from Admin Orders and Shop Staff Orders.
+- New/non-completed orders now show a prominent bold red PENDING status label above the existing action buttons.
+- Make Complete, Print Slip, Cancel, and existing Done/checkmark behavior remain in place.
+- Order list height can grow naturally until its viewport-based maximum, then scroll internally; the page/container remains normally scrollable and is no longer sticky.
+- Updated cache-busting versions for the affected scripts/styles.

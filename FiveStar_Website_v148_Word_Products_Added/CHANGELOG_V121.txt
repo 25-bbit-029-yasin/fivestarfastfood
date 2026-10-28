@@ -1,0 +1,6 @@
+Five Star Website v121
+
+- Converted delivery-map picker instructions, helper text, loading messages, and location-permission/error messages from Roman Urdu to English.
+- Updated customer-facing website cache-busting versions for app.js and styles.css.
+- Adjusted the mobile cart drawer so the cart heading stays flush at the top with an opaque background while cart contents scroll upward underneath it, removing the visible gap/overlap effect.
+- Kept the changes scoped to the public website; admin and shop staff behavior is unchanged.

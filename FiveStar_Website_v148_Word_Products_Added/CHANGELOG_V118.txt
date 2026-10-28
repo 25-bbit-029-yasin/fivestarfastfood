@@ -1,0 +1,9 @@
+Five Star Website v118 — 2026-10-26
+
+- Sticky Customer Orders header and Refresh Orders controls on both Admin and Shop Staff pages.
+- Removed internal orders-list scrolling so the document scrolls naturally while the heading remains pinned.
+- Left-aligned Done label within the order action area.
+- Sort order cards into active/pending first, customer-cancelled orders awaiting review next, and completed orders below active orders; newest orders appear first within groups.
+- Customer cancellation review has Recover and OK actions. OK permanently deletes only customer-cancelled orders after confirmation; Recover restores status to received.
+- Customer-cancelled orders expire after 10 minutes server-side, including periodic background cleanup. Existing short retention for admin-cancelled orders remains unchanged.
+- JavaScript syntax and ZIP integrity checks passed. Full browser end-to-end testing was not performed.

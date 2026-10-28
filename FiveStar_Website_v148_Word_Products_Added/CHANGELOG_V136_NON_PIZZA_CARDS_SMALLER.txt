@@ -1,0 +1,6 @@
+v136 update
+- Kept pizza cards at their existing v135 compact size.
+- Reduced only non-pizza card width, image display height, padding, text size, and spacing.
+- Kept image object-fit behavior and source image dimensions unchanged; images remain contained without cropping.
+- Admin settings, pizza prices, cart, and order logic unchanged.
+- CSS cache-busting version updated to 136.

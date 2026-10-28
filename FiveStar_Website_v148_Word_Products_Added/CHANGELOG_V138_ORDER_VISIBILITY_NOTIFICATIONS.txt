@@ -1,0 +1,9 @@
+Version 138 — Order visibility and logged-out alerts
+
+- Fixed Admin Panel order endpoints to use the Admin login session, not the Shop Staff login session. Admin can now see/manage orders after Admin login without needing the Shop Staff panel to be logged in.
+- Kept Shop Staff order-management endpoints protected by the separate Shop Staff login.
+- Added a minimal public alert endpoint that returns only the newest order ID/time/status and shop-open state; it does not expose customer names, phone numbers, addresses, items, or totals.
+- Admin and Shop Staff pages poll the alert endpoint while open, including while logged out, and display a browser notification for a newly received order when browser notifications are allowed.
+- Order details and management actions remain login-protected.
+- Cache-busting versions updated.
+- Validation: Node syntax checks and ZIP integrity check passed. Full browser end-to-end testing was not performed.

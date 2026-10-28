@@ -1,0 +1,9 @@
+Version 137 updates
+- Restored non-pizza menu card sizing to the original v32 layout: full card width, original image height/padding by breakpoint, normal text sizing and spacing.
+- Preserved the current compact pizza card layout.
+- Home page featured products now sort pizza cards after all non-pizza products.
+- Fast Food > All sorts pizza cards to the very bottom, after other fast-food products and any drinks cards configured for that page.
+- Standardized every deal card and its image area to a fixed height: 280px desktop and 230px mobile. Long text is clamped so one deal cannot stretch the card.
+- Deal image uploads larger than 800x600 are resized proportionally to fit within 800x600 and encoded as WebP at quality 85; smaller images remain at their original dimensions.
+- Cache-busting versions updated.
+- Validation: JavaScript syntax checks and ZIP integrity check passed. Full browser end-to-end testing was not performed.

@@ -1,0 +1,7 @@
+Version 141 updates
+- Added selectable Full/Half size buttons to fries-category product cards.
+- Full price uses the existing product price; Half price is calculated as 60% rounded to the nearest Rs 10.
+- Selected size is added to cart through the existing + button, and server-side order pricing handles fries sizes.
+- Normal products (including sandwiches) retain their original card sizing; cards with size options are grouped after regular cards on the All Fast Food page, with pizza cards last.
+- Kept the existing favicon/logo and existing compact selection-button style.
+- Updated asset cache-busting to v141.

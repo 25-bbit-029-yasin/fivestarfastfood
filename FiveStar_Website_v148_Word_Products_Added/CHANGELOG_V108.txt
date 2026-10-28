@@ -1,0 +1,3 @@
+Five Star Website — Version 108
+
+Fix requested: order cards in Admin Orders and Shop Staff Orders must remain full-width, normally formatted cards. Corrected the flex sizing that could squeeze the order details column because the action area was set to 100% width while sharing a row. Text now wraps normally rather than breaking at arbitrary characters/words. On small screens, the complete order card stacks vertically while preserving full width. Existing pending/done status, timers, and scrolling behavior are unchanged.

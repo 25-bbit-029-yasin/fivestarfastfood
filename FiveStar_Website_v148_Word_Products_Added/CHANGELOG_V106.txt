@@ -1,0 +1,5 @@
+Five Star Website v106
+
+- Pending buttons are white by default and red with a check mark when selected as pending.
+- Orders Staff authentication re-checks when a page is restored from browser back-forward cache, requiring the tab-session rule to be enforced again. Manual logout behavior remains unchanged.
+- Cache-busting versions updated for staff page assets.

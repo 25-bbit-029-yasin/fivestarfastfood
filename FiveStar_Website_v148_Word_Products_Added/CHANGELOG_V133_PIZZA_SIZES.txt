@@ -1,0 +1,11 @@
+Five Star Website v133 — Pizza size pricing
+
+- Pizza product cards show Small, Medium and Large pizza prices.
+- Pressing the plus button on a pizza opens a size chooser before adding it to cart.
+- Pizza sizes are separate cart lines with their own quantities and totals.
+- Order API validates selected size and uses the saved server-side size price.
+- Admin product form includes Small / Medium / Large pizza price fields; edit form loads saved values.
+- Medium pizza price is used as the product's main/base price for compatibility with older product listings.
+
+Before publishing: open Admin Panel > Manage products, edit each pizza, set Small/Medium/Large prices, and save. Zero/blank Small or Large prices remain unavailable until set.
+Validation: Node syntax checks and ZIP integrity check performed; full browser end-to-end testing not performed.

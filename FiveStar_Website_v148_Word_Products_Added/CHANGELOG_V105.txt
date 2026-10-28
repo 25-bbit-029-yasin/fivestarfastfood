@@ -1,0 +1,6 @@
+Five Star Website v105
+
+- Updated Shop Orders and Staff Orders panels with independent page/container scrolling and inner order-list scrolling. Removed the extra blank space caused by sticky order-list layout.
+- Added a Pending status action to both order panels.
+- Completed orders now show permanent Done, with a temporary checkmark for three seconds; print and other action buttons are hidden after completion.
+- Server accepts the pending status. Existing order timers and other workflows are unchanged.

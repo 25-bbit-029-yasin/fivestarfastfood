@@ -1,0 +1,9 @@
+Five Star Website v100 — Cart success popup correction
+
+- Fixed the actual overwrite: the website-order flow no longer replaces the success popup with a notice containing the order ID, and no longer emits the extra order-ID toast.
+- Success popup content remains exactly “Your order has been successfully placed.” with an animated circular tick and no order number.
+- Success notice clears any stale saved notice before displaying and auto-dismisses after 4.5 seconds.
+- Positioned both the existing confirmation card and success card over the cart drawer area, so the success card appears where the confirmation card was.
+- Updated asset cache versions to v100.
+
+Validation: JavaScript syntax, HTML parsing, and ZIP integrity checks performed. Live browser/order-flow testing not performed.

@@ -1,0 +1,11 @@
+Five Star Website v93 - Cart and contact updates
+
+1. Added English and Urdu (Jameel Noori Nastaleeq-first font stack) ordering guidance in Your Cart:
+   - WhatsApp users may order via WhatsApp or the website.
+   - Users without WhatsApp should order through the website.
+2. Added an order confirmation dialog before either WhatsApp or website checkout is submitted. Confirm continues with the selected method; Cancel/Escape/backdrop closes it without submitting the order.
+3. Admin > Shop & Restaurant Settings now supports multiple call contact numbers (one per line, up to 20). All saved numbers appear as individual Call links on Contact sections.
+4. Kept a single WhatsApp number setting for all WhatsApp order links and order messages.
+5. Updated cache-busting versions for app.js/admin.js to v93.
+
+Validation: node --check passed for public/app.js, public/admin.js, and server.js. Full live browser and real order testing remains to be performed.

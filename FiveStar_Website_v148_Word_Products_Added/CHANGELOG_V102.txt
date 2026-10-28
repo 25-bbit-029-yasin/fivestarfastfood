@@ -1,0 +1,6 @@
+Version 102 changes
+- Cart phone validation now shows only: “Please correct your number.”
+- Applied the same Pakistan phone validation to the Contact “Send us a message” phone field.
+- Accepted formats: +92 followed by exactly 10 digits (13 characters total including +), or a local number starting 03 with exactly 11 digits.
+- Only a leading + is permitted; other symbols are removed as the user types. Invalid numbers prevent checkout/contact submission.
+- No unrelated features intentionally changed.

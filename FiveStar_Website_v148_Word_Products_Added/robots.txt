@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /admin-fivestar-kashmir-secure-2024
+Disallow: /staff-fivestar-kashmir-secure-2024

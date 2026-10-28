@@ -1,0 +1,8 @@
+Five Star Website update based on uploaded v122 archive
+
+Changes in this package:
+- Shop Staff API authorization no longer treats an Admin login as a Shop Staff login; staff authentication is independent.
+- View website links in Admin and Orders Staff panels open in a new tab, keeping the panel tab/session open when returning.
+- Restored the Call Us helper sentence: “You can call us at the number below.”
+
+Note: Ringtone UI was not changed in this package; the uploaded version's existing tone selector/upload/test/built-in controls remain. Please test sessions and phone/browser behavior locally before production use.

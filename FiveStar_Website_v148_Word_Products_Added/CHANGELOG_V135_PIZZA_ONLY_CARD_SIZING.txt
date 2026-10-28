@@ -1,0 +1,7 @@
+Version 135 updates
+- Added a dedicated pizza-product-card class to pizza product cards.
+- Kept pizza cards compact with the v134 sizing and compact Small/Medium/Large price rows.
+- Restored original normal content padding, typography, description height, button size, and spacing for non-pizza product cards on menu pages.
+- Preserved image dimensions and image fitting rules, including support for 800x600 product images.
+- Admin Panel and pizza price functionality were not changed.
+- Validation: JavaScript syntax and ZIP integrity checks passed; no full browser end-to-end test was performed.

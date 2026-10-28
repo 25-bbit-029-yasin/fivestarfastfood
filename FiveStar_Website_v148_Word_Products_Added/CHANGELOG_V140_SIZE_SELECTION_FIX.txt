@@ -1,0 +1,8 @@
+Version 140 - Size selection behavior fix
+
+- Pasta and pizza size buttons now only select a size; they no longer add items directly to cart.
+- Selected size receives a light golden/yellow highlight and aria-pressed state.
+- Existing + button adds the currently selected size and its matching price to cart.
+- If no size is selected, + shows a brief prompt to select a size first.
+- Kept the existing card layout, image sizing rules, and + button dimensions; size selectors are more compact.
+- Existing favicon and Five Star logo changes from v139 are retained.

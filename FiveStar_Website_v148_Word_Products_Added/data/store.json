@@ -1,0 +1,640 @@
+{
+  "settings": {
+    "restaurantName": "Five Star Fast Food & Kashmiri Barfi",
+    "phone": "+923452294636",
+    "email": "5star.fastfood.orders@gmail.com",
+    "whatsapp": "923452294636",
+    "address": "Add your restaurant address here",
+    "hours": "Add your opening hours here",
+    "about": "Welcome to Five Star Fast Food & Kashmiri Barfi. We serve fast-food favorites and traditional sweet treats.",
+    "mapUrl": "",
+    "videos": {
+      "allPages": "/uploads/1793134515110-36f458f443.mp4",
+      "home": "",
+      "deals": "",
+      "fastfood": "",
+      "sweets": "",
+      "drinks": "",
+      "about": "",
+      "contact": ""
+    },
+    "shopClosed": false,
+    "shopReopenAt": ""
+  },
+  "products": [
+    {
+      "id": "p3",
+      "name": "Chicken Shawarma",
+      "category": "shawarma",
+      "section": "fastfood",
+      "price": 450,
+      "description": "Seasoned chicken with fresh vegetables and sauce.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p5",
+      "name": "Kashmiri Barfi",
+      "category": "sweet",
+      "section": "sweets",
+      "price": 800,
+      "description": "Traditional sweet treat. Confirm pack size and ingredients.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p6",
+      "name": "Ladoo",
+      "category": "sweet",
+      "section": "sweets",
+      "price": 600,
+      "description": "A classic sweet for sharing.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p7",
+      "name": "Chocolate Shake",
+      "category": "shake",
+      "section": "sweets",
+      "price": 350,
+      "description": "Creamy chocolate shake, served chilled.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p8",
+      "name": "Falooda",
+      "category": "faluda",
+      "section": "sweets",
+      "price": 400,
+      "description": "Chilled falooda dessert drink.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p9",
+      "name": "Dahi",
+      "category": "dahi",
+      "section": "fastfood",
+      "price": 120,
+      "description": "Fresh chilled dahi.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p10",
+      "name": "Dahi Bhallay",
+      "category": "dahi-bhallay",
+      "section": "fastfood",
+      "price": 220,
+      "description": "Soft bhallay with creamy yogurt and chutney.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p11",
+      "name": "Cold Drink",
+      "category": "drink",
+      "section": "drinks",
+      "price": 100,
+      "description": "Chilled refreshing drink.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p12",
+      "name": "Tin Pack Drink",
+      "category": "tinpack",
+      "section": "drinks",
+      "price": 180,
+      "description": "Chilled tin-pack drink.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p13",
+      "name": "Fresh Juice",
+      "category": "juice",
+      "section": "drinks",
+      "price": 250,
+      "description": "Refreshing fruit juice.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p17",
+      "name": "Crispy Fried Chicken",
+      "category": "fried",
+      "section": "fastfood",
+      "price": 420,
+      "description": "Freshly fried, crunchy chicken.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p18",
+      "name": "Creamy Pasta",
+      "category": "pasta",
+      "section": "fastfood",
+      "price": 550,
+      "description": "Creamy pasta tossed with herbs and sauce.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p19",
+      "name": "Club Sandwich",
+      "category": "sandwich",
+      "section": "fastfood",
+      "price": 480,
+      "description": "Toasted sandwich layered with chicken and fresh vegetables.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p20",
+      "name": "Chicken Paratha Roll",
+      "category": "paratha-roll",
+      "section": "fastfood",
+      "price": 350,
+      "description": "Spiced chicken wrapped in a flaky paratha.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p21",
+      "name": "Masala Fries",
+      "category": "fries",
+      "section": "fastfood",
+      "price": 250,
+      "description": "Golden fries tossed with flavorful masala.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "menu-special-burger",
+      "name": "Special Burger",
+      "category": "burger",
+      "publicCategory": "burger",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 450,
+      "description": "A signature burger packed with bold flavor for a satisfying bite.",
+      "image": "/assets/menu/product_rid7.jpg",
+      "active": true
+    },
+    {
+      "id": "menu-tower-burger",
+      "name": "Tower Burger",
+      "category": "burger",
+      "publicCategory": "burger",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 500,
+      "description": "A tall, hearty burger made for a big appetite.",
+      "image": "/assets/menu/product_rid8.jpg",
+      "active": true
+    },
+    {
+      "id": "menu-chicken-patty-burger",
+      "name": "Chicken Patty Burger",
+      "category": "burger",
+      "publicCategory": "burger",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 250,
+      "description": "A classic chicken patty burger for a quick and tasty meal.",
+      "image": "/assets/menu/product_rid9.jpg",
+      "active": true
+    },
+    {
+      "id": "menu-chapli-burger",
+      "name": "Chapli Burger",
+      "category": "burger",
+      "publicCategory": "burger",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 250,
+      "description": "A flavorful chapli-style burger with a satisfying savory taste.",
+      "image": "/assets/menu/product_rid10.jpg",
+      "active": true
+    },
+    {
+      "id": "menu-smoke-burger",
+      "name": "Smoke Burger",
+      "category": "burger",
+      "publicCategory": "burger",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 400,
+      "description": "A smoky-flavored burger made for a rich, delicious bite.",
+      "image": "/assets/menu/product_rid11.jpg",
+      "active": true
+    },
+    {
+      "id": "menu-bazinga-supreme-burger",
+      "name": "Bazinga Supreme Burger",
+      "category": "burger",
+      "publicCategory": "burger",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 550,
+      "description": "A supreme-style burger loaded with a bold, indulgent taste.",
+      "image": "/assets/menu/product_rid12.jpg",
+      "active": true
+    },
+    {
+      "id": "menu-egg-burger",
+      "name": "Egg Burger",
+      "category": "burger",
+      "publicCategory": "burger",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 150,
+      "description": "A simple, filling egg burger that is easy to enjoy anytime.",
+      "image": "/assets/menu/product_rid13.jpg",
+      "active": true
+    },
+    {
+      "id": "menu-shami-burger",
+      "name": "Shami Burger",
+      "category": "burger",
+      "publicCategory": "burger",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 150,
+      "description": "A classic shami burger with a comforting, savory flavor.",
+      "image": "/assets/menu/product_rid14.jpg",
+      "active": true
+    },
+    {
+      "id": "menu-double-egg-burger",
+      "name": "Double Egg Burger",
+      "category": "burger",
+      "publicCategory": "burger",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 200,
+      "description": "Double egg goodness in a satisfying burger.",
+      "image": "/assets/menu/product_rid15.jpg",
+      "active": true
+    },
+    {
+      "id": "menu-chicken-fajita",
+      "name": "Chicken Fajita",
+      "category": "regular-pizza",
+      "publicCategory": "regular-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 900,
+      "description": "A flavorful chicken fajita pizza with a colorful mix of toppings.",
+      "image": "/assets/menu/product_rid16.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 450,
+        "medium": 900,
+        "large": 1250
+      }
+    },
+    {
+      "id": "menu-chicken-supreme",
+      "name": "Chicken Supreme",
+      "category": "regular-pizza",
+      "publicCategory": "regular-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 900,
+      "description": "A generous supreme-style pizza made for a full, savory bite.",
+      "image": "/assets/menu/product_rid17.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 450,
+        "medium": 900,
+        "large": 1250
+      }
+    },
+    {
+      "id": "menu-chicken-tikka",
+      "name": "Chicken Tikka",
+      "category": "regular-pizza",
+      "publicCategory": "regular-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 900,
+      "description": "A classic chicken tikka pizza with a bold, spiced flavor.",
+      "image": "/assets/menu/product_rid18.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 450,
+        "medium": 900,
+        "large": 1250
+      }
+    },
+    {
+      "id": "menu-chicken-tandoori",
+      "name": "Chicken Tandori",
+      "category": "regular-pizza",
+      "publicCategory": "regular-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 900,
+      "description": "A tandoori-inspired pizza with a rich, smoky-style taste.",
+      "image": "/assets/menu/product_rid19.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 450,
+        "medium": 900,
+        "large": 1250
+      }
+    },
+    {
+      "id": "menu-peri-peri",
+      "name": "Peri Peri",
+      "category": "regular-pizza",
+      "publicCategory": "regular-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 900,
+      "description": "A zesty peri peri pizza for fans of a lively, spicy kick.",
+      "image": "/assets/menu/product_rid20.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 450,
+        "medium": 900,
+        "large": 1250
+      }
+    },
+    {
+      "id": "menu-hot-and-spicy",
+      "name": "Hot And Spicy",
+      "category": "regular-pizza",
+      "publicCategory": "regular-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 900,
+      "description": "A fiery pizza choice with a bold, spicy flavor.",
+      "image": "/assets/menu/product_rid21.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 450,
+        "medium": 900,
+        "large": 1250
+      }
+    },
+    {
+      "id": "menu-veggy-lover-pizza",
+      "name": "Veggy Lover Pizza",
+      "category": "regular-pizza",
+      "publicCategory": "regular-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 900,
+      "description": "A colorful veggie pizza made for vegetable lovers.",
+      "image": "/assets/menu/product_rid22.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 450,
+        "medium": 900,
+        "large": 1250
+      }
+    },
+    {
+      "id": "menu-chicken-cheez-lover",
+      "name": "Chicken Cheez Lover",
+      "category": "regular-pizza",
+      "publicCategory": "regular-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 900,
+      "description": "A cheesy chicken pizza for anyone craving a rich, comforting slice.",
+      "image": "/assets/menu/product_rid23.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 450,
+        "medium": 900,
+        "large": 1250
+      }
+    },
+    {
+      "id": "menu-special-pizza-five-star",
+      "name": "Special Pizza Five Star",
+      "category": "special-pizza",
+      "publicCategory": "special-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 1200,
+      "description": "A Five Star special pizza with a generous, satisfying combination of flavors.",
+      "image": "/assets/menu/product_rid24.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 600,
+        "medium": 1200,
+        "large": 1600
+      }
+    },
+    {
+      "id": "menu-malai-botti",
+      "name": "Malai Botti",
+      "category": "special-pizza",
+      "publicCategory": "special-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 1200,
+      "description": "A creamy, malai boti-inspired pizza with a rich, savory taste.",
+      "image": "/assets/menu/product_rid25.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 600,
+        "medium": 1200,
+        "large": 1600
+      }
+    },
+    {
+      "id": "menu-beari-kabab",
+      "name": "Beari Kabab",
+      "category": "special-pizza",
+      "publicCategory": "special-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 1200,
+      "description": "A kabab-inspired pizza with a bold, savory flavor.",
+      "image": "/assets/menu/product_rid26.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 600,
+        "medium": 1200,
+        "large": 1600
+      }
+    },
+    {
+      "id": "menu-extreme-pizza",
+      "name": "Extreme Pizza",
+      "category": "special-pizza",
+      "publicCategory": "special-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 1200,
+      "description": "An extra-indulgent pizza for anyone craving big flavor.",
+      "image": "/assets/menu/product_rid27.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 600,
+        "medium": 1200,
+        "large": 1600
+      }
+    },
+    {
+      "id": "menu-kabab-stuffer",
+      "name": "Kabab Stuffer",
+      "category": "stuffed-pizza",
+      "publicCategory": "stuffed-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 1300,
+      "description": "A stuffed pizza with kabab-inspired flavor in every slice.",
+      "image": "/assets/menu/product_rid28.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 0,
+        "medium": 1300,
+        "large": 1800
+      }
+    },
+    {
+      "id": "menu-cheese-stuffed-pizza",
+      "name": "Cheez Stuffe Pizza",
+      "category": "stuffed-pizza",
+      "publicCategory": "stuffed-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 1300,
+      "description": "A cheese-stuffed pizza made for a rich, cheesy bite.",
+      "image": "/assets/menu/product_rid29.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 0,
+        "medium": 1300,
+        "large": 1800
+      }
+    },
+    {
+      "id": "menu-crown-crust-pizza",
+      "name": "Crown Crust Pizza",
+      "category": "stuffed-pizza",
+      "publicCategory": "stuffed-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 1300,
+      "description": "A crown-crust pizza with a special-looking edge and hearty flavor.",
+      "image": "/assets/menu/product_rid30.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 0,
+        "medium": 1300,
+        "large": 1800
+      }
+    },
+    {
+      "id": "menu-kababish-pizza",
+      "name": "Kababish Pizza",
+      "category": "stuffed-pizza",
+      "publicCategory": "stuffed-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 1300,
+      "description": "A kabab-style pizza with a savory, satisfying taste.",
+      "image": "/assets/menu/product_rid31.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 0,
+        "medium": 1300,
+        "large": 1800
+      }
+    },
+    {
+      "id": "menu-lazania-pizza",
+      "name": "Lazania Pizza",
+      "category": "stuffed-pizza",
+      "publicCategory": "stuffed-pizza",
+      "showInSectionAll": true,
+      "showInCategory": true,
+      "section": "fastfood",
+      "featured": true,
+      "price": 1300,
+      "description": "A lasagna-inspired pizza layered with rich, comforting flavor.",
+      "image": "/assets/menu/product_rid32.jpg",
+      "active": true,
+      "pizzaPrices": {
+        "small": 0,
+        "medium": 1300,
+        "large": 1800
+      }
+    }
+  ],
+  "deals": [
+    {
+      "id": "d2",
+      "name": "Sweet Treat Box",
+      "price": 1350,
+      "description": "Barfi and ladoo for sharing.",
+      "image": "",
+      "active": true,
+      "productIds": [
+        "p5",
+        "p6"
+      ]
+    }
+  ],
+  "orders": []
+}

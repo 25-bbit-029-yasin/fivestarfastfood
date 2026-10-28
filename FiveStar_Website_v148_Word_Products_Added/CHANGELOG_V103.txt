@@ -1,0 +1,8 @@
+Version 103
+- Fixed checkout submission using a non-existent validatePakistanPhone() function; it now calls validatePakistanPhoneInput() for the checkout phone field.
+- This resolves the JavaScript exception that prevented valid-number checkout submissions from continuing.
+- Kept Pakistan phone rules: +92 followed by 10 digits, or local 03 followed by 9 digits.
+- Kept the concise validation message: Please correct your number.
+- Bumped public asset cache versions to v103 where applicable.
+- Validation checks: Node syntax checks passed; phone format cases passed; ZIP integrity checked after packaging.
+- Live browser/API order submission was not performed in this environment.

@@ -1,0 +1,6 @@
+Version 134 updates
+- Reduced vertical spacing and padding in pizza size price rows, and compacted product-card information spacing.
+- Kept the existing product image dimensions/display rules unchanged; uploaded 800x600 images remain supported.
+- Moved pizza size price inputs into a hidden-by-default admin fieldset. It appears when a pizza category or pizza placement is selected, including pizza, all pizza, regular, special, stuffed, cold pizza, and pizza-pop categories.
+- Editing an existing pizza fills its saved Small/Medium/Large prices.
+- Updated admin asset cache versions to v134.

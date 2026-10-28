@@ -1,0 +1,4 @@
+Version 144
+- Updated only the homepage hero image ring: the gold dotted circle rotates continuously.
+- Added a CSS cache-busting version for stylesheet links.
+- No product cards, sizes, text, prices, or ordering behavior changed.

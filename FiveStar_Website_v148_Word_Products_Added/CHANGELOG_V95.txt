@@ -1,0 +1,9 @@
+Five Star Website v95
+
+- Moved bilingual cart ordering guidance into the order-method button group; it only appears when cart items exist. Added red warning symbols and retained English/Urdu copy.
+- Reduced the order confirmation popup width from the cart-width range to a compact 340px maximum while retaining its placement over the open cart area.
+- Updated the Orders lists in both Admin and Shop Stock panels to use viewport-aware, internally scrollable sticky order lists. Existing order cards and page controls were not redesigned.
+- Updated static asset query versions to v95.
+
+Validation: checked JavaScript syntax and ZIP integrity. Live browser and real order submission tests were not performed.
+- Orders list becomes pinned once it reaches the viewport top; its own contents remain scrollable. Short lists grow naturally before reaching the internal-scroll limit.

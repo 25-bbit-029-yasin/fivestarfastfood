@@ -1,0 +1,9 @@
+Five Star Website v98 — Cart Order Popup Alignment
+
+- Kept the existing Confirm/Cancel order popup and centered it in the viewport over the Cart page, without replacing its controls or order flow.
+- Kept the success message in English exactly as requested: “Order has been successfully placed.”
+- Made the success message a compact, centered, translucent popup with a green checkmark, matching the confirmation popup scale and allowing the Cart page to remain visible behind it.
+- Success popup auto-dismisses after 4.5 seconds using the existing timer.
+- Updated static asset cache keys to v98.
+
+Validation: JavaScript syntax and archive integrity checks performed. Live browser/order-flow testing was not performed in this environment.

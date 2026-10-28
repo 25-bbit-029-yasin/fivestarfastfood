@@ -1,0 +1,9 @@
+Five Star Website v128 — ringtone selection refinement
+
+- Removed the Test button from Admin and Shop Staff ringtone sections; Save is the only action button.
+- Clicking a built-in or custom ringtone immediately previews it.
+- The ringtone selection menu remains open while choosing/previewing; Save applies the pending choice and closes the menu.
+- Kept multiple audio-file upload and the + Add ringtone option.
+- Updated script/style cache versions to v128.
+
+Validation: JavaScript syntax checks and ZIP integrity check passed. Live browser/device interaction testing was not performed.

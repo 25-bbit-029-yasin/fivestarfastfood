@@ -1,0 +1,9 @@
+Five Star Website v97 — Contact Section Restoration
+
+- Restored the original shared Contact Five Star section at the bottom of every non-Contact page.
+- The original Contact page remains unchanged and is not duplicated.
+- Shared contact details use the existing settings render pipeline, so phone numbers, WhatsApp, address, map, email, and opening hours continue to update from Admin settings across pages.
+- Preserved single clickable phone-number display and removed duplicate Call 1/Call 2 links.
+- Shared contact form submits through the existing WhatsApp message flow.
+
+Validation: JavaScript syntax and ZIP integrity checks performed. Live browser/admin update testing was not performed in this environment.
